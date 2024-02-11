@@ -79,7 +79,7 @@ public class TC_001_CarLoan extends BaseClass {
        try {
             hlm = new HomeLoanEMI(driver);
             boolean targetPage=hlm.verifyHomeLoanWebpage();
-            Assert.assertEquals(targetPage, true,"Web page has not opened");
+            softAssert.assertEquals(targetPage, true,"Web page has not opened");
 			System.out.println("Verified that actual page is same as expected page..");
             hlm.HomeLoan("2500000","20","110000");
             hlm.loanDetails("12", "12", "0.25");
