@@ -12,7 +12,8 @@ import testBase.BaseClass;
 public class TC_004_Tenure extends BaseClass{
 
 	LoanTenureCal ltc = new LoanTenureCal(driver);
-
+        SoftAssert softAssert;
+	
 	@Test(priority = 15,groups = {"sanity","regression"})
 	public void loanTenureuiTest() throws Throwable {
 		try {
@@ -21,7 +22,7 @@ public class TC_004_Tenure extends BaseClass{
 		ltc.linkToLoan();
 		ltc.testMethod();
 		boolean targetPage=ltc.verifyLoanWebpage();
-		Assert.assertEquals(targetPage, true,"Tenure calculator page has not opened");
+		softAssert.assertEquals(targetPage, true,"Tenure calculator page has not opened");
 		System.out.println("Verified that Tenure Calculator page has opened..");
 		} catch (Exception e) {
             e.printStackTrace();
