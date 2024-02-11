@@ -30,7 +30,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Logger logger;
 	public Properties p;
-	SoftAssert softAssert;
+	
 
 	@BeforeTest(groups = {"sanity","regression"})
 	@Parameters({"os", "br"})
