@@ -25,11 +25,13 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import org.testng.asserts.SoftAssert;
 
 public class BaseClass {
 	public static WebDriver driver;
 	public static Logger logger;
 	public Properties p;
+	SoftAssert softAssert;
 
 	@BeforeTest(groups = {"sanity","regression"})
 	@Parameters({"os", "br"})
@@ -90,6 +92,11 @@ public class BaseClass {
 		driver.get("https://emicalculator.net/");
 		driver.manage().window().maximize();
 	}
+	
+	@BeforeTest(groups = {"sanity","regression"})
+	 public void setUp() {
+	    	SoftAssert softAssert=new SoftAssert();
+	    }
 
 
 	public  int getRandom(int size) {

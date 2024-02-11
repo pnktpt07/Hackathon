@@ -3,12 +3,14 @@ package testCases;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
- 
+import org.testng.asserts.SoftAssert;
+
 import pageObjects.LoanAmtCal;
 import testBase.BaseClass;
  
 public class TC_003_Amount extends BaseClass {
 	
+	SoftAssert softAssert;
  
 	@Test(priority = 11,groups = {"sanity","regression"}) 
 	public void loanAmtuiTest() throws Throwable {
@@ -18,7 +20,7 @@ public class TC_003_Amount extends BaseClass {
 		lac.linkToLoan();
 		lac.testMethod();
 		boolean targetPage=lac.verifyLoanAmtWebpage();
-		Assert.assertEquals(targetPage, true,"EMI calculator page has not opened");
+		softAssert.assertEquals(targetPage, true,"EMI calculator page has not opened");
 		System.out.println("Verified that EMI Calculator page has opened..");
 		} catch (Exception e) {
             e.printStackTrace();

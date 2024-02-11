@@ -1,1 +1,21 @@
 15:58:00.496 [main] INFO  testCases.TC_001_CarLoan - Entering Tenure Value..
+17:08:48.730 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\2303503\eclipse-workspace\Hackathon-Project\testng.xml] otherwise TestNG may fail or not work as expected.
+17:08:55.135 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_001_CarLoanEmi TestCase  *****
+17:08:55.432 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Amount..
+17:08:55.757 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Interest..
+17:08:55.993 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Tenure..
+17:08:56.491 [main] INFO  testCases.TC_001_CarLoan - Printing Principal Amount and Interest Amount on console..
+17:09:03.826 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_002_EMI TestCase  *****
+17:09:04.864 [main] INFO  testCases.TC_001_CarLoan - Entering loan Amount value..
+17:09:08.060 [main] INFO  testCases.TC_001_CarLoan - Entering loan Interest value..
+17:09:11.184 [main] INFO  testCases.TC_001_CarLoan - Entering loan Tenure value..
+17:09:11.595 [main] INFO  testCases.TC_001_CarLoan - Entering loan Fees value..
+17:09:14.897 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_003_Amount TestCase  *****
+17:09:15.210 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Value..
+17:09:18.375 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Interest Value..
+17:09:21.458 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Tenure Value..
+17:09:21.882 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Fees Value..
+17:09:25.145 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_004_LoanTenureCal TestCase  *****
+17:09:25.449 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Amount Value..
+17:09:28.735 [main] INFO  testCases.TC_001_CarLoan - Entering Interest Value..
+17:09:31.825 [main] INFO  testCases.TC_001_CarLoan - Entering Tenure Value..

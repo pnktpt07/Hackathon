@@ -3,7 +3,8 @@ package testCases;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
- 
+import org.testng.asserts.SoftAssert;
+
 import pageObjects.LoanTenureCal;
 import testBase.BaseClass;
 
@@ -11,6 +12,7 @@ import testBase.BaseClass;
  
 public class TC_004_Tenure extends BaseClass{
 
+	SoftAssert softAssert;
 	LoanTenureCal ltc = new LoanTenureCal(driver);
 
 	@Test(priority = 15,groups = {"sanity","regression"})
@@ -21,7 +23,7 @@ public class TC_004_Tenure extends BaseClass{
 		ltc.linkToLoan();
 		ltc.testMethod();
 		boolean targetPage=ltc.verifyLoanWebpage();
-		Assert.assertEquals(targetPage, true,"Tenure calculator page has not opened");
+		softAssert.assertEquals(targetPage, true,"Tenure calculator page has not opened");
 		System.out.println("Verified that Tenure Calculator page has opened..");
 		} catch (Exception e) {
             e.printStackTrace();
