@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC_002_EMI extends BaseClass{
  
 	EMI_Calculator EMI = new EMI_Calculator(driver);
-	SoftAssert softAssert;
+	
 	
 	@Test(priority = 6,groups = {"sanity","regression"})
 	public void emicalculator() throws Throwable {
@@ -21,7 +21,7 @@ public class TC_002_EMI extends BaseClass{
 		EMI.clickLoanCalculator();
 		EMI.testMethod();
 		boolean targetPage=EMI.verifyLoanWebpage();
-		softAssert.assertEquals(targetPage, true,"EMI calculator page has not opened");
+		Assert.assertEquals(targetPage, true,"EMI calculator page has not opened");
 		System.out.println("EMI Calculator page has opened..");
 	} catch (Exception e) {
         e.printStackTrace();
