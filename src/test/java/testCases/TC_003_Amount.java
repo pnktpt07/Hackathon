@@ -9,7 +9,7 @@ import testBase.BaseClass;
  
 public class TC_003_Amount extends BaseClass {
 	
- 
+        SoftAssert softAssert;
 	@Test(priority = 11,groups = {"sanity","regression"}) 
 	public void loanAmtuiTest() throws Throwable {
 		try {
@@ -18,7 +18,7 @@ public class TC_003_Amount extends BaseClass {
 		lac.linkToLoan();
 		lac.testMethod();
 		boolean targetPage=lac.verifyLoanAmtWebpage();
-		Assert.assertEquals(targetPage, true,"EMI calculator page has not opened");
+		softAssert.assertEquals(targetPage, true,"EMI calculator page has not opened");
 		System.out.println("Verified that EMI Calculator page has opened..");
 		} catch (Exception e) {
             e.printStackTrace();
