@@ -18,7 +18,7 @@ public class TC_001_CarLoan extends BaseClass {
     HomeLoanEMI hlm;
     EMI_Calculator ec;
     List<List<String>> tableData;
-    SoftAssert softAssert;
+    
     
     @Test(priority = 1, groups = {"sanity","regression"})
     public void carLoanTest() {
@@ -30,7 +30,7 @@ public class TC_001_CarLoan extends BaseClass {
         
             cl = new CarLoanEMI(driver);
             boolean targetPage=cl.verifycarloanwebpage();
-			softAssert.assertEquals(targetPage, true,"Web page has not opened");
+			Assert.assertEquals(targetPage, true,"Web page has not opened");
 			System.out.println("Verified that actual page is same as expected page..");
     	} catch (Exception e) {
             e.printStackTrace();
@@ -79,7 +79,7 @@ public class TC_001_CarLoan extends BaseClass {
        try {
             hlm = new HomeLoanEMI(driver);
             boolean targetPage=hlm.verifyHomeLoanWebpage();
-            softAssert.assertEquals(targetPage, true,"Web page has not opened");
+            Assert.assertEquals(targetPage, true,"Web page has not opened");
 			System.out.println("Verified that actual page is same as expected page..");
             hlm.HomeLoan("2500000","20","110000");
             hlm.loanDetails("12", "12", "0.25");
