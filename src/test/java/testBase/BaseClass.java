@@ -30,6 +30,7 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Logger logger;
 	public Properties p;
+	SoftAssert softAssert;
 
 	@BeforeTest(groups = {"sanity","regression"})
 	@Parameters({"os", "br"})
@@ -91,7 +92,11 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 
-
+	@BeforeTest(groups = {"sanity","regression"})
+	public void setUpAssert() {
+	    	SoftAssert softAssert=new SoftAssert();
+	}
+	
 	public  int getRandom(int size) {
 		Random random=new Random();
 		int generatedNumber = random.nextInt(size);
