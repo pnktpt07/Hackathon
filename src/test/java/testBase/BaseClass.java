@@ -38,7 +38,8 @@ public class BaseClass {
 	public void setup(String os, String br) throws IOException
 
 	{
-		logger=LogManager.getLogger(this.getClass().getName());//Log4j
+		logger=LogManager.getLogger(Test.class);//Log4j
+		
 		//loading properties file
 		FileReader file=new FileReader(".//src//test//resources//config.properties");
 		p=new Properties();

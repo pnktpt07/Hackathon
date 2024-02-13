@@ -1,0 +1,23 @@
+10:46:08.128 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\2303503\eclipse-workspace\Hackathon-Project\testng.xml] otherwise TestNG may fail or not work as expected.
+10:46:08.566 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303503\eclipse-workspace\Hackathon-Project\testng.xml
+
+10:46:15.811 [main] INFO  org.testng.annotations.Test - **** starting TC_001_CarLoanEmi TestCase  *****
+10:46:16.102 [main] INFO  org.testng.annotations.Test - Entering Car Loan Amount..
+10:46:16.536 [main] INFO  org.testng.annotations.Test - Entering Car Loan Interest..
+10:46:16.802 [main] INFO  org.testng.annotations.Test - Entering Car Loan Tenure..
+10:46:17.359 [main] INFO  org.testng.annotations.Test - Printing Principal Amount and Interest Amount on console..
+10:46:26.422 [main] INFO  org.testng.annotations.Test - **** starting TC_002_EMI TestCase  *****
+10:46:26.422 [main] INFO  org.testng.annotations.Test - Entering loan Amount value..
+10:46:29.610 [main] INFO  org.testng.annotations.Test - Entering loan Interest value..
+10:46:32.792 [main] INFO  org.testng.annotations.Test - Entering loan Tenure value..
+10:46:33.227 [main] INFO  org.testng.annotations.Test - Entering loan Fees value..
+10:46:36.522 [main] INFO  org.testng.annotations.Test - **** starting TC_003_Amount TestCase  *****
+10:46:36.873 [main] INFO  org.testng.annotations.Test - Entering Loan Value..
+10:46:39.998 [main] INFO  org.testng.annotations.Test - Entering Loan Interest Value..
+10:46:43.069 [main] INFO  org.testng.annotations.Test - Entering Loan Tenure Value..
+10:46:43.514 [main] INFO  org.testng.annotations.Test - Entering Loan Fees Value..
+10:46:46.854 [main] INFO  org.testng.annotations.Test - **** starting TC_004_LoanTenureCal TestCase  *****
+10:46:47.195 [main] INFO  org.testng.annotations.Test - Entering Loan Amount Value..
+10:46:50.448 [main] INFO  org.testng.annotations.Test - Entering Interest Value..
+10:46:53.622 [main] INFO  org.testng.annotations.Test - Entering Tenure Value..
