@@ -2,40 +2,44 @@
 <testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-09T17:08:49 IST" name="Suite" finished-at="2024-02-09T17:09:36 IST" duration-ms="47072">
+  <suite started-at="2024-02-12T12:38:15 IST" name="Suite" finished-at="2024-02-12T12:39:12 IST" duration-ms="56691">
     <groups>
       <group name="regression">
-        <method signature="TC_001_CarLoan.carLoanTest()[pri:1, instance:testCases.TC_001_CarLoan@36ac8a63]" name="carLoanTest" class="testCases.TC_001_CarLoan"/>
-        <method signature="TC_001_CarLoan.carloanvalue()[pri:2, instance:testCases.TC_001_CarLoan@36ac8a63]" name="carloanvalue" class="testCases.TC_001_CarLoan"/>
-        <method signature="TC_001_CarLoan.click_HomeLoan()[pri:3, instance:testCases.TC_001_CarLoan@36ac8a63]" name="click_HomeLoan" class="testCases.TC_001_CarLoan"/>
-        <method signature="TC_001_CarLoan.homeLoanTest()[pri:4, instance:testCases.TC_001_CarLoan@36ac8a63]" name="homeLoanTest" class="testCases.TC_001_CarLoan"/>
-        <method signature="TC_001_CarLoan.excel()[pri:5, instance:testCases.TC_001_CarLoan@36ac8a63]" name="excel" class="testCases.TC_001_CarLoan"/>
-        <method signature="TC_002_EMI.emicalculator()[pri:6, instance:testCases.TC_002_EMI@4201a617]" name="emicalculator" class="testCases.TC_002_EMI"/>
-        <method signature="TC_002_EMI.enterLoanAmt()[pri:7, instance:testCases.TC_002_EMI@4201a617]" name="enterLoanAmt" class="testCases.TC_002_EMI"/>
-        <method signature="TC_002_EMI.enterInterest()[pri:8, instance:testCases.TC_002_EMI@4201a617]" name="enterInterest" class="testCases.TC_002_EMI"/>
-        <method signature="TC_002_EMI.enterLoan()[pri:9, instance:testCases.TC_002_EMI@4201a617]" name="enterLoan" class="testCases.TC_002_EMI"/>
-        <method signature="TC_002_EMI.enterFees()[pri:10, instance:testCases.TC_002_EMI@4201a617]" name="enterFees" class="testCases.TC_002_EMI"/>
-        <method signature="TC_003_Amount.loanAmtuiTest()[pri:11, instance:testCases.TC_003_Amount@467f77a5]" name="loanAmtuiTest" class="testCases.TC_003_Amount"/>
-        <method signature="TC_003_Amount.enterEMI()[pri:12, instance:testCases.TC_003_Amount@467f77a5]" name="enterEMI" class="testCases.TC_003_Amount"/>
-        <method signature="TC_003_Amount.enterInterest()[pri:13, instance:testCases.TC_003_Amount@467f77a5]" name="enterInterest" class="testCases.TC_003_Amount"/>
-        <method signature="TC_003_Amount.enterTenure()[pri:14, instance:testCases.TC_003_Amount@467f77a5]" name="enterTenure" class="testCases.TC_003_Amount"/>
-        <method signature="TC_003_Amount.enterFees()[pri:15, instance:testCases.TC_003_Amount@467f77a5]" name="enterFees" class="testCases.TC_003_Amount"/>
-        <method signature="TC_004_Tenure.loanTenureuiTest()[pri:15, instance:testCases.TC_004_Tenure@3be8821f]" name="loanTenureuiTest" class="testCases.TC_004_Tenure"/>
-        <method signature="TC_004_Tenure.loantenuretest()[pri:16, instance:testCases.TC_004_Tenure@3be8821f]" name="loantenuretest" class="testCases.TC_004_Tenure"/>
-        <method signature="TC_004_Tenure.loanInterestTest()[pri:17, instance:testCases.TC_004_Tenure@3be8821f]" name="loanInterestTest" class="testCases.TC_004_Tenure"/>
-        <method signature="TC_004_Tenure.loanFeesTest()[pri:18, instance:testCases.TC_004_Tenure@3be8821f]" name="loanFeesTest" class="testCases.TC_004_Tenure"/>
+        <method signature="TC_001_CarLoan.carLoanTest()[pri:1, instance:testCases.TC_001_CarLoan@22680f52]" name="carLoanTest" class="testCases.TC_001_CarLoan"/>
+        <method signature="TC_001_CarLoan.carloanvalue()[pri:2, instance:testCases.TC_001_CarLoan@22680f52]" name="carloanvalue" class="testCases.TC_001_CarLoan"/>
+        <method signature="TC_001_CarLoan.click_HomeLoan()[pri:3, instance:testCases.TC_001_CarLoan@22680f52]" name="click_HomeLoan" class="testCases.TC_001_CarLoan"/>
+        <method signature="TC_001_CarLoan.homeLoanTest()[pri:4, instance:testCases.TC_001_CarLoan@22680f52]" name="homeLoanTest" class="testCases.TC_001_CarLoan"/>
+        <method signature="TC_001_CarLoan.excel()[pri:5, instance:testCases.TC_001_CarLoan@22680f52]" name="excel" class="testCases.TC_001_CarLoan"/>
+        <method signature="TC_002_EMI.emicalculator()[pri:6, instance:testCases.TC_002_EMI@3be8821f]" name="emicalculator" class="testCases.TC_002_EMI"/>
+        <method signature="TC_002_EMI.enterLoanAmt()[pri:7, instance:testCases.TC_002_EMI@3be8821f]" name="enterLoanAmt" class="testCases.TC_002_EMI"/>
+        <method signature="TC_002_EMI.enterInterest()[pri:8, instance:testCases.TC_002_EMI@3be8821f]" name="enterInterest" class="testCases.TC_002_EMI"/>
+        <method signature="TC_002_EMI.enterLoan()[pri:9, instance:testCases.TC_002_EMI@3be8821f]" name="enterLoan" class="testCases.TC_002_EMI"/>
+        <method signature="TC_002_EMI.enterFees()[pri:10, instance:testCases.TC_002_EMI@3be8821f]" name="enterFees" class="testCases.TC_002_EMI"/>
+        <method signature="TC_003_Amount.loanAmtuiTest()[pri:11, instance:testCases.TC_003_Amount@64b31700]" name="loanAmtuiTest" class="testCases.TC_003_Amount"/>
+        <method signature="TC_003_Amount.enterEMI()[pri:12, instance:testCases.TC_003_Amount@64b31700]" name="enterEMI" class="testCases.TC_003_Amount"/>
+        <method signature="TC_003_Amount.enterInterest()[pri:13, instance:testCases.TC_003_Amount@64b31700]" name="enterInterest" class="testCases.TC_003_Amount"/>
+        <method signature="TC_003_Amount.enterTenure()[pri:14, instance:testCases.TC_003_Amount@64b31700]" name="enterTenure" class="testCases.TC_003_Amount"/>
+        <method signature="TC_003_Amount.enterFees()[pri:15, instance:testCases.TC_003_Amount@64b31700]" name="enterFees" class="testCases.TC_003_Amount"/>
+        <method signature="TC_004_Tenure.loanTenureuiTest()[pri:16, instance:testCases.TC_004_Tenure@214894fc]" name="loanTenureuiTest" class="testCases.TC_004_Tenure"/>
+        <method signature="TC_004_Tenure.loantenuretest()[pri:17, instance:testCases.TC_004_Tenure@214894fc]" name="loantenuretest" class="testCases.TC_004_Tenure"/>
+        <method signature="TC_004_Tenure.loanInterestTest()[pri:18, instance:testCases.TC_004_Tenure@214894fc]" name="loanInterestTest" class="testCases.TC_004_Tenure"/>
+        <method signature="TC_004_Tenure.loanFeesTest()[pri:19, instance:testCases.TC_004_Tenure@214894fc]" name="loanFeesTest" class="testCases.TC_004_Tenure"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_001_CarLoan.carLoanTest()[pri:1, instance:testCases.TC_001_CarLoan@36ac8a63]" name="carLoanTest" class="testCases.TC_001_CarLoan"/>
-        <method signature="TC_001_CarLoan.click_HomeLoan()[pri:3, instance:testCases.TC_001_CarLoan@36ac8a63]" name="click_HomeLoan" class="testCases.TC_001_CarLoan"/>
-        <method signature="TC_002_EMI.emicalculator()[pri:6, instance:testCases.TC_002_EMI@4201a617]" name="emicalculator" class="testCases.TC_002_EMI"/>
-        <method signature="TC_003_Amount.loanAmtuiTest()[pri:11, instance:testCases.TC_003_Amount@467f77a5]" name="loanAmtuiTest" class="testCases.TC_003_Amount"/>
-        <method signature="TC_004_Tenure.loanTenureuiTest()[pri:15, instance:testCases.TC_004_Tenure@3be8821f]" name="loanTenureuiTest" class="testCases.TC_004_Tenure"/>
+        <method signature="TC_001_CarLoan.carLoanTest()[pri:1, instance:testCases.TC_001_CarLoan@22680f52]" name="carLoanTest" class="testCases.TC_001_CarLoan"/>
+        <method signature="TC_001_CarLoan.click_HomeLoan()[pri:3, instance:testCases.TC_001_CarLoan@22680f52]" name="click_HomeLoan" class="testCases.TC_001_CarLoan"/>
+        <method signature="TC_002_EMI.emicalculator()[pri:6, instance:testCases.TC_002_EMI@3be8821f]" name="emicalculator" class="testCases.TC_002_EMI"/>
+        <method signature="TC_003_Amount.loanAmtuiTest()[pri:11, instance:testCases.TC_003_Amount@64b31700]" name="loanAmtuiTest" class="testCases.TC_003_Amount"/>
+        <method signature="TC_004_Tenure.loanTenureuiTest()[pri:16, instance:testCases.TC_004_Tenure@214894fc]" name="loanTenureuiTest" class="testCases.TC_004_Tenure"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-02-09T17:08:49 IST" name="Test" finished-at="2024-02-09T17:09:36 IST" duration-ms="47072">
+    <test started-at="2024-02-12T12:38:15 IST" name="Test" finished-at="2024-02-12T12:39:12 IST" duration-ms="56691">
       <class name="testCases.TC_001_CarLoan">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_CarLoan@36ac8a63]" started-at="2024-02-09T17:08:49 IST" name="setup" finished-at="2024-02-09T17:08:55 IST" duration-ms="5601" status="PASS">
+        <test-method is-config="true" signature="setUpAssert()[pri:0, instance:testCases.TC_001_CarLoan@22680f52]" started-at="2024-02-12T12:38:16 IST" name="setUpAssert" finished-at="2024-02-12T12:38:16 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpAssert -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_CarLoan@22680f52]" started-at="2024-02-12T12:38:16 IST" name="setup" finished-at="2024-02-12T12:38:23 IST" duration-ms="7679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,89 +55,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="carLoanTest()[pri:1, instance:testCases.TC_001_CarLoan@36ac8a63]" started-at="2024-02-09T17:08:55 IST" name="carLoanTest" finished-at="2024-02-09T17:08:55 IST" duration-ms="63" status="PASS">
+        <test-method signature="carLoanTest()[pri:1, instance:testCases.TC_001_CarLoan@22680f52]" started-at="2024-02-12T12:38:23 IST" name="carLoanTest" finished-at="2024-02-12T12:38:23 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanTest -->
-        <test-method signature="carloanvalue()[pri:2, instance:testCases.TC_001_CarLoan@36ac8a63]" started-at="2024-02-09T17:08:55 IST" name="carloanvalue" finished-at="2024-02-09T17:08:56 IST" duration-ms="1382" status="PASS">
+        <test-method signature="carloanvalue()[pri:2, instance:testCases.TC_001_CarLoan@22680f52]" started-at="2024-02-12T12:38:24 IST" name="carloanvalue" finished-at="2024-02-12T12:38:25 IST" duration-ms="1609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carloanvalue -->
-        <test-method signature="click_HomeLoan()[pri:3, instance:testCases.TC_001_CarLoan@36ac8a63]" started-at="2024-02-09T17:08:56 IST" name="click_HomeLoan" finished-at="2024-02-09T17:08:57 IST" duration-ms="472" status="PASS">
+        <test-method signature="click_HomeLoan()[pri:3, instance:testCases.TC_001_CarLoan@22680f52]" started-at="2024-02-12T12:38:26 IST" name="click_HomeLoan" finished-at="2024-02-12T12:38:27 IST" duration-ms="989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_HomeLoan -->
-        <test-method signature="homeLoanTest()[pri:4, instance:testCases.TC_001_CarLoan@36ac8a63]" started-at="2024-02-09T17:08:57 IST" name="homeLoanTest" finished-at="2024-02-09T17:09:01 IST" duration-ms="3892" status="PASS">
+        <test-method signature="homeLoanTest()[pri:4, instance:testCases.TC_001_CarLoan@22680f52]" started-at="2024-02-12T12:38:27 IST" name="homeLoanTest" finished-at="2024-02-12T12:38:32 IST" duration-ms="4734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoanTest -->
-        <test-method signature="excel()[pri:5, instance:testCases.TC_001_CarLoan@36ac8a63]" started-at="2024-02-09T17:09:01 IST" name="excel" finished-at="2024-02-09T17:09:03 IST" duration-ms="1927" status="PASS">
+        <test-method signature="excel()[pri:5, instance:testCases.TC_001_CarLoan@22680f52]" started-at="2024-02-12T12:38:32 IST" name="excel" finished-at="2024-02-12T12:38:36 IST" duration-ms="4142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- excel -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_CarLoan@36ac8a63]" started-at="2024-02-09T17:09:35 IST" name="teardown" finished-at="2024-02-09T17:09:36 IST" duration-ms="1165" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_CarLoan@22680f52]" started-at="2024-02-12T12:39:11 IST" name="teardown" finished-at="2024-02-12T12:39:12 IST" duration-ms="1301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testCases.TC_001_CarLoan -->
       <class name="testCases.TC_002_EMI">
-        <test-method signature="emicalculator()[pri:6, instance:testCases.TC_002_EMI@4201a617]" started-at="2024-02-09T17:09:03 IST" name="emicalculator" finished-at="2024-02-09T17:09:04 IST" duration-ms="831" status="PASS">
+        <test-method signature="emicalculator()[pri:6, instance:testCases.TC_002_EMI@3be8821f]" started-at="2024-02-12T12:38:36 IST" name="emicalculator" finished-at="2024-02-12T12:38:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emicalculator -->
-        <test-method signature="enterLoanAmt()[pri:7, instance:testCases.TC_002_EMI@4201a617]" started-at="2024-02-09T17:09:04 IST" name="enterLoanAmt" finished-at="2024-02-09T17:09:07 IST" duration-ms="2977" status="PASS">
+        <test-method signature="enterLoanAmt()[pri:7, instance:testCases.TC_002_EMI@3be8821f]" started-at="2024-02-12T12:38:36 IST" name="enterLoanAmt" finished-at="2024-02-12T12:38:40 IST" duration-ms="3155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterLoanAmt -->
-        <test-method signature="enterInterest()[pri:8, instance:testCases.TC_002_EMI@4201a617]" started-at="2024-02-09T17:09:08 IST" name="enterInterest" finished-at="2024-02-09T17:09:10 IST" duration-ms="2926" status="PASS">
+        <test-method signature="enterInterest()[pri:8, instance:testCases.TC_002_EMI@3be8821f]" started-at="2024-02-12T12:38:40 IST" name="enterInterest" finished-at="2024-02-12T12:38:43 IST" duration-ms="3115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterInterest -->
-        <test-method signature="enterLoan()[pri:9, instance:testCases.TC_002_EMI@4201a617]" started-at="2024-02-09T17:09:11 IST" name="enterLoan" finished-at="2024-02-09T17:09:11 IST" duration-ms="253" status="PASS">
+        <test-method signature="enterLoan()[pri:9, instance:testCases.TC_002_EMI@3be8821f]" started-at="2024-02-12T12:38:44 IST" name="enterLoan" finished-at="2024-02-12T12:38:44 IST" duration-ms="581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterLoan -->
-        <test-method signature="enterFees()[pri:10, instance:testCases.TC_002_EMI@4201a617]" started-at="2024-02-09T17:09:11 IST" name="enterFees" finished-at="2024-02-09T17:09:14 IST" duration-ms="3137" status="PASS">
+        <test-method signature="enterFees()[pri:10, instance:testCases.TC_002_EMI@3be8821f]" started-at="2024-02-12T12:38:44 IST" name="enterFees" finished-at="2024-02-12T12:38:48 IST" duration-ms="3356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFees -->
       </class> <!-- testCases.TC_002_EMI -->
       <class name="testCases.TC_003_Amount">
-        <test-method signature="loanAmtuiTest()[pri:11, instance:testCases.TC_003_Amount@467f77a5]" started-at="2024-02-09T17:09:14 IST" name="loanAmtuiTest" finished-at="2024-02-09T17:09:15 IST" duration-ms="144" status="PASS">
+        <test-method signature="loanAmtuiTest()[pri:11, instance:testCases.TC_003_Amount@64b31700]" started-at="2024-02-12T12:38:48 IST" name="loanAmtuiTest" finished-at="2024-02-12T12:38:48 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanAmtuiTest -->
-        <test-method signature="enterEMI()[pri:12, instance:testCases.TC_003_Amount@467f77a5]" started-at="2024-02-09T17:09:15 IST" name="enterEMI" finished-at="2024-02-09T17:09:18 IST" duration-ms="2924" status="PASS">
+        <test-method signature="enterEMI()[pri:12, instance:testCases.TC_003_Amount@64b31700]" started-at="2024-02-12T12:38:48 IST" name="enterEMI" finished-at="2024-02-12T12:38:52 IST" duration-ms="3033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterEMI -->
-        <test-method signature="enterInterest()[pri:13, instance:testCases.TC_003_Amount@467f77a5]" started-at="2024-02-09T17:09:18 IST" name="enterInterest" finished-at="2024-02-09T17:09:21 IST" duration-ms="2894" status="PASS">
+        <test-method signature="enterInterest()[pri:13, instance:testCases.TC_003_Amount@64b31700]" started-at="2024-02-12T12:38:52 IST" name="enterInterest" finished-at="2024-02-12T12:38:55 IST" duration-ms="3030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterInterest -->
-        <test-method signature="enterTenure()[pri:14, instance:testCases.TC_003_Amount@467f77a5]" started-at="2024-02-09T17:09:21 IST" name="enterTenure" finished-at="2024-02-09T17:09:21 IST" duration-ms="234" status="PASS">
+        <test-method signature="enterTenure()[pri:14, instance:testCases.TC_003_Amount@64b31700]" started-at="2024-02-12T12:38:55 IST" name="enterTenure" finished-at="2024-02-12T12:38:55 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterTenure -->
-        <test-method signature="enterFees()[pri:15, instance:testCases.TC_003_Amount@467f77a5]" started-at="2024-02-09T17:09:21 IST" name="enterFees" finished-at="2024-02-09T17:09:24 IST" duration-ms="3108" status="PASS">
+        <test-method signature="enterFees()[pri:15, instance:testCases.TC_003_Amount@64b31700]" started-at="2024-02-12T12:38:55 IST" name="enterFees" finished-at="2024-02-12T12:38:59 IST" duration-ms="3318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFees -->
       </class> <!-- testCases.TC_003_Amount -->
       <class name="testCases.TC_004_Tenure">
-        <test-method signature="loanTenureuiTest()[pri:15, instance:testCases.TC_004_Tenure@3be8821f]" started-at="2024-02-09T17:09:25 IST" name="loanTenureuiTest" finished-at="2024-02-09T17:09:25 IST" duration-ms="135" status="PASS">
+        <test-method signature="loanTenureuiTest()[pri:16, instance:testCases.TC_004_Tenure@214894fc]" started-at="2024-02-12T12:38:59 IST" name="loanTenureuiTest" finished-at="2024-02-12T12:38:59 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanTenureuiTest -->
-        <test-method signature="loantenuretest()[pri:16, instance:testCases.TC_004_Tenure@3be8821f]" started-at="2024-02-09T17:09:25 IST" name="loantenuretest" finished-at="2024-02-09T17:09:28 IST" duration-ms="3115" status="PASS">
+        <test-method signature="loantenuretest()[pri:17, instance:testCases.TC_004_Tenure@214894fc]" started-at="2024-02-12T12:39:00 IST" name="loantenuretest" finished-at="2024-02-12T12:39:03 IST" duration-ms="3384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loantenuretest -->
-        <test-method signature="loanInterestTest()[pri:17, instance:testCases.TC_004_Tenure@3be8821f]" started-at="2024-02-09T17:09:28 IST" name="loanInterestTest" finished-at="2024-02-09T17:09:31 IST" duration-ms="2889" status="PASS">
+        <test-method signature="loanInterestTest()[pri:18, instance:testCases.TC_004_Tenure@214894fc]" started-at="2024-02-12T12:39:03 IST" name="loanInterestTest" finished-at="2024-02-12T12:39:07 IST" duration-ms="3226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanInterestTest -->
-        <test-method signature="loanFeesTest()[pri:18, instance:testCases.TC_004_Tenure@3be8821f]" started-at="2024-02-09T17:09:31 IST" name="loanFeesTest" finished-at="2024-02-09T17:09:34 IST" duration-ms="3129" status="PASS">
+        <test-method signature="loanFeesTest()[pri:19, instance:testCases.TC_004_Tenure@214894fc]" started-at="2024-02-12T12:39:07 IST" name="loanFeesTest" finished-at="2024-02-12T12:39:10 IST" duration-ms="3498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loanFeesTest -->

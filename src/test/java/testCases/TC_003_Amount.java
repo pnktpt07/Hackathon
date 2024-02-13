@@ -3,16 +3,14 @@ package testCases;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
+ 
 import pageObjects.LoanAmtCal;
 import testBase.BaseClass;
  
 public class TC_003_Amount extends BaseClass {
 	
-	SoftAssert softAssert;
  
-	@Test(priority = 11,groups = {"sanity","regression"}) 
+	@Test(priority = 10,groups = {"sanity","regression"}) 
 	public void loanAmtuiTest() throws Throwable {
 		try {
 		logger.info("**** starting TC_003_Amount TestCase  *****");
@@ -20,7 +18,7 @@ public class TC_003_Amount extends BaseClass {
 		lac.linkToLoan();
 		lac.testMethod();
 		boolean targetPage=lac.verifyLoanAmtWebpage();
-		softAssert.assertEquals(targetPage, true,"EMI calculator page has not opened");
+		Assert.assertEquals(targetPage, true,"EMI calculator page has not opened");
 		System.out.println("Verified that EMI Calculator page has opened..");
 		} catch (Exception e) {
             e.printStackTrace();
@@ -28,7 +26,7 @@ public class TC_003_Amount extends BaseClass {
         }
 	}
 	
-	@Test(priority = 12,groups="regression") 
+	@Test(priority = 11,groups="regression") 
 	public void enterEMI() throws Throwable {
 		try {
 			logger.info("Entering Loan Value..");
@@ -45,7 +43,7 @@ public class TC_003_Amount extends BaseClass {
 	}
 	
 	
-	@Test(priority = 13,groups="regression") 
+	@Test(priority = 12,groups="regression") 
 	public void enterInterest() throws Throwable {
 		try {
 			logger.info("Entering Loan Interest Value..");
@@ -62,7 +60,7 @@ public class TC_003_Amount extends BaseClass {
 	}
 	
 	
-	@Test(priority = 14,groups="regression") 
+	@Test(priority = 13,groups="regression") 
 	public void enterTenure() throws Throwable {
 		try {
 			logger.info("Entering Loan Tenure Value..");
@@ -77,7 +75,7 @@ public class TC_003_Amount extends BaseClass {
         }
 	}
 	
-	@Test(priority = 15,groups="regression") 
+	@Test(priority = 14,groups="regression") 
 	public void enterFees() throws Throwable {
 		try {
 			logger.info("Entering Loan Fees Value..");

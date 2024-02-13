@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 //import org.openqa.selenium.JavascriptExecutor;
@@ -62,22 +61,6 @@ public class EMI_Calculator extends BasePage {
  
 	
 	//Actions
-	public boolean verifyLoanWebpage() {
-		String resultWebsite = driver.getTitle();
-        String expectedWebsite = "Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate";
-        try {
-			return(resultWebsite.equals(expectedWebsite));
-		}   catch(Exception e) {
-			return false;
-		}
-	}
-	
-	
-	public void clickLoanCalculator() throws Throwable {
-		 JavascriptExecutor js = (JavascriptExecutor) driver;
-		 js.executeScript("arguments[0].scrollIntoView(true);",loancalculator );
-		 loancalculator.click();
-	}
 	
 	public void takeScreenshot() throws InterruptedException, IOException {
 		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

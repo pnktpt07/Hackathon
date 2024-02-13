@@ -66,6 +66,9 @@ public class HomeLoanEMI extends BasePage{
 
 	@FindBy(xpath="//*[@id=\"paymentschedule\"]/table/tbody/tr[2]/td")
 	List <WebElement> cells;
+	
+	@FindBy(xpath="//*[@id=\"menu-item-3009\"]/a")
+	WebElement loancalculator;
 
 	List<List<String>> tableData = new ArrayList<List<String>>();
 
@@ -158,6 +161,7 @@ public class HomeLoanEMI extends BasePage{
 
 		return tableData;
 	}
+	
 
 	public void takeScreenshot() throws InterruptedException, IOException {
 		File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -167,6 +171,22 @@ public class HomeLoanEMI extends BasePage{
 
 	public void navigate() {
 		driver.navigate().back();
+	}
+	
+	public void clickLoanCalculator() throws Throwable {
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("arguments[0].scrollIntoView(true);",loancalculator );
+		 loancalculator.click();
+	}
+	
+	public boolean verifyLoanWebpage() {
+		String resultWebsite = driver.getTitle();
+        String expectedWebsite = "Loan Calculator — Calculate EMI, Affordability, Tenure & Interest Rate";
+        try {
+			return(resultWebsite.equals(expectedWebsite));
+		}   catch(Exception e) {
+			return false;
+		}
 	}
 
 }

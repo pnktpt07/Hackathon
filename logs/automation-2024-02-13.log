@@ -1,0 +1,55 @@
+12:56:37.405 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\2303503\eclipse-workspace\Hackathon-Project\crossBrowserTest.xml] otherwise TestNG may fail or not work as expected.
+12:56:37.938 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303503\eclipse-workspace\Hackathon-Project\crossBrowserTest.xml
+
+12:56:46.534 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_001_CarLoanEmi TestCase  *****
+12:56:46.872 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Amount..
+12:56:47.428 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Interest..
+12:56:47.740 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Tenure..
+12:56:48.400 [main] INFO  testCases.TC_001_CarLoan - Printing Principal Amount and Interest Amount on console..
+12:56:59.511 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_002_EMI TestCase  *****
+12:56:59.512 [main] INFO  testCases.TC_001_CarLoan - Entering loan Amount value..
+12:57:03.026 [main] INFO  testCases.TC_001_CarLoan - Entering loan Interest value..
+12:57:06.593 [main] INFO  testCases.TC_001_CarLoan - Entering loan Tenure value..
+12:57:07.352 [main] INFO  testCases.TC_001_CarLoan - Entering loan Fees value..
+12:57:11.008 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_003_Amount TestCase  *****
+12:57:11.565 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Value..
+12:57:15.024 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Interest Value..
+12:57:18.397 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Tenure Value..
+12:57:19.049 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Fees Value..
+12:57:22.622 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_004_LoanTenureCal TestCase  *****
+12:57:23.120 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Amount Value..
+12:57:27.002 [main] INFO  testCases.TC_001_CarLoan - Entering Interest Value..
+12:57:30.576 [main] INFO  testCases.TC_001_CarLoan - Entering Tenure Value..
+12:57:58.536 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_001_CarLoanEmi TestCase  *****
+12:57:58.835 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Amount..
+12:57:59.384 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Interest..
+12:57:59.722 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Tenure..
+12:58:00.488 [main] INFO  testCases.TC_001_CarLoan - Printing Principal Amount and Interest Amount on console..
+12:58:31.137 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_002_EMI TestCase  *****
+12:58:31.137 [main] INFO  testCases.TC_001_CarLoan - Entering loan Amount value..
+12:58:34.686 [main] INFO  testCases.TC_001_CarLoan - Entering loan Interest value..
+12:58:38.180 [main] INFO  testCases.TC_001_CarLoan - Entering loan Tenure value..
+12:58:38.925 [main] INFO  testCases.TC_001_CarLoan - Entering loan Fees value..
+12:58:42.750 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_003_Amount TestCase  *****
+12:58:43.370 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Value..
+12:58:46.831 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Interest Value..
+12:58:50.311 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Tenure Value..
+12:58:51.135 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Fees Value..
+12:58:54.791 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_004_LoanTenureCal TestCase  *****
+12:58:55.332 [main] INFO  testCases.TC_001_CarLoan - Entering Loan Amount Value..
+12:58:59.012 [main] INFO  testCases.TC_001_CarLoan - Entering Interest Value..
+12:59:02.923 [main] INFO  testCases.TC_001_CarLoan - Entering Tenure Value..
+09:39:18.367 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\2303503\eclipse-workspace\Hackathon-Project\testng.xml] otherwise TestNG may fail or not work as expected.
+09:39:18.810 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303503\eclipse-workspace\Hackathon-Project\testng.xml
+
+09:39:26.544 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_001_CarLoanEmi TestCase  *****
+09:39:26.852 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Amount..
+09:39:27.302 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Interest..
+09:39:27.596 [main] INFO  testCases.TC_001_CarLoan - Entering Car Loan Tenure..
+09:39:28.210 [main] INFO  testCases.TC_001_CarLoan - Printing Principal Amount and Interest Amount on console..
+09:39:38.547 [main] INFO  testCases.TC_001_CarLoan - **** starting TC_002_EMI TestCase  *****
+09:39:38.547 [main] INFO  testCases.TC_001_CarLoan - Entering loan Amount value..
+09:39:41.762 [main] INFO  testCases.TC_001_CarLoan - Entering loan Interest value..
+09:39:45.011 [main] INFO  testCases.TC_001_CarLoan - Entering loan Tenure value..

@@ -92,11 +92,7 @@ public class BaseClass {
 		driver.get("https://emicalculator.net/");
 		driver.manage().window().maximize();
 	}
-	
-	@BeforeTest(groups = {"sanity","regression"})
-	 public void setUp() {
-	    	SoftAssert softAssert=new SoftAssert();
-	    }
+
 
 
 	public  int getRandom(int size) {

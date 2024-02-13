@@ -1,9 +1,7 @@
 package testCases;
  
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 import pageObjects.EMI_Calculator;
 import testBase.BaseClass;
@@ -11,28 +9,12 @@ import testBase.BaseClass;
  
 public class TC_002_EMI extends BaseClass{
  
-	SoftAssert softAssert;
 	EMI_Calculator EMI = new EMI_Calculator(driver);
 	
-	@Test(priority = 6,groups = {"sanity","regression"})
-	public void emicalculator() throws Throwable {
-		try {
-		logger.info("**** starting TC_002_EMI TestCase  *****");
-		EMI_Calculator EMI = new EMI_Calculator(driver);
-		EMI.clickLoanCalculator();
-		EMI.testMethod();
-		boolean targetPage=EMI.verifyLoanWebpage();
-		softAssert.assertEquals(targetPage, true,"EMI calculator page has not opened");
-		System.out.println("EMI Calculator page has opened..");
-	} catch (Exception e) {
-        e.printStackTrace();
-        logger.error("Test Failed..");
-    }
-	}
-	
-	@Test(priority = 7,groups = "regression")
+	@Test(priority = 6,groups = "regression")
 	public void enterLoanAmt() throws Throwable {
 		try {
+			logger.info("**** starting TC_002_EMI TestCase  *****");
 			logger.info("Entering loan Amount value..");
 		EMI_Calculator EMI = new EMI_Calculator(driver);
 		WebElement loanAmount= EMI.loanAmount();
@@ -48,7 +30,7 @@ public class TC_002_EMI extends BaseClass{
 	}
 	
 	
-	@Test(priority = 8,groups = "regression")
+	@Test(priority = 7,groups = "regression")
 	public void enterInterest() throws Throwable {
 		try {
 			logger.info("Entering loan Interest value..");
@@ -64,7 +46,7 @@ public class TC_002_EMI extends BaseClass{
         }
 	}
 
-	@Test(priority = 9,groups = "regression")
+	@Test(priority = 8,groups = "regression")
 	public void enterLoan() throws Throwable {
 		try {
 			logger.info("Entering loan Tenure value..");
@@ -79,7 +61,7 @@ public class TC_002_EMI extends BaseClass{
         }
 	}
 	
-	@Test(priority = 10,groups = "regression")
+	@Test(priority = 9,groups = "regression")
 	public void enterFees() throws Throwable {
 		try {
 			logger.info("Entering loan Fees value..");

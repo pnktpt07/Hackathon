@@ -10,19 +10,21 @@
     <classes>
       <class name="testCases.TC_004_Tenure">
         <methods>
-          <include name="teardown"/>
           <include name="loantenuretest"/>
+          <include name="teardown"/>
           <include name="loanFeesTest"/>
-          <include name="loanInterestTest"/>
           <include name="setup"/>
+          <include name="loanInterestTest"/>
+          <include name="setUpAssert"/>
           <include name="loanTenureuiTest"/>
         </methods>
       </class> <!-- testCases.TC_004_Tenure -->
       <class name="testCases.TC_003_Amount">
         <methods>
           <include name="teardown"/>
-          <include name="setup"/>
           <include name="enterTenure"/>
+          <include name="setup"/>
+          <include name="setUpAssert"/>
           <include name="enterInterest"/>
           <include name="enterEMI"/>
           <include name="loanAmtuiTest"/>
@@ -33,10 +35,11 @@
         <methods>
           <include name="teardown"/>
           <include name="homeLoanTest"/>
-          <include name="carLoanTest"/>
           <include name="carloanvalue"/>
+          <include name="carLoanTest"/>
           <include name="excel"/>
           <include name="setup"/>
+          <include name="setUpAssert"/>
           <include name="click_HomeLoan"/>
         </methods>
       </class> <!-- testCases.TC_001_CarLoan -->
@@ -45,6 +48,7 @@
           <include name="teardown"/>
           <include name="enterLoan"/>
           <include name="setup"/>
+          <include name="setUpAssert"/>
           <include name="enterInterest"/>
           <include name="enterFees"/>
           <include name="emicalculator"/>
