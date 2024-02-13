@@ -12,7 +12,8 @@ import testBase.BaseClass;
 public class TC_004_Tenure extends BaseClass{
 
 	LoanTenureCal ltc = new LoanTenureCal(driver);
-
+        
+	
 	@Test(priority = 15,groups = {"sanity","regression"})
 	public void loanTenureuiTest() throws Throwable {
 		try {

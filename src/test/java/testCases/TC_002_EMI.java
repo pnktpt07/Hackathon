@@ -11,7 +11,28 @@ public class TC_002_EMI extends BaseClass{
  
 	EMI_Calculator EMI = new EMI_Calculator(driver);
 	
+<<<<<<< HEAD
 	@Test(priority = 6,groups = "regression")
+=======
+	
+	@Test(priority = 6,groups = {"sanity","regression"})
+	public void emicalculator() throws Throwable {
+		try {
+		logger.info("**** starting TC_002_EMI TestCase  *****");
+		EMI_Calculator EMI = new EMI_Calculator(driver);
+		EMI.clickLoanCalculator();
+		EMI.testMethod();
+		boolean targetPage=EMI.verifyLoanWebpage();
+		Assert.assertEquals(targetPage, true,"EMI calculator page has not opened");
+		System.out.println("EMI Calculator page has opened..");
+	} catch (Exception e) {
+        e.printStackTrace();
+        logger.error("Test Failed..");
+    }
+	}
+	
+	@Test(priority = 7,groups = "regression")
+>>>>>>> 1a261e7abed0771a6ef7f74580043c7e5e0f02df
 	public void enterLoanAmt() throws Throwable {
 		try {
 			logger.info("**** starting TC_002_EMI TestCase  *****");
