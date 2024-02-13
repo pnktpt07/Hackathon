@@ -9,13 +9,8 @@ import testBase.BaseClass;
  
 public class TC_003_Amount extends BaseClass {
 	
-<<<<<<< HEAD
- 
+	
 	@Test(priority = 10,groups = {"sanity","regression"}) 
-=======
-       
-	@Test(priority = 11,groups = {"sanity","regression"}) 
->>>>>>> 1a261e7abed0771a6ef7f74580043c7e5e0f02df
 	public void loanAmtuiTest() throws Throwable {
 		try {
 		logger.info("**** starting TC_003_Amount TestCase  *****");
@@ -63,7 +58,6 @@ public class TC_003_Amount extends BaseClass {
         logger.error("Test Failed..");
     }
 	}
-	
 	
 	@Test(priority = 13,groups="regression") 
 	public void enterTenure() throws Throwable {

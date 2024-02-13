@@ -14,22 +14,12 @@ import testBase.BaseClass;
 
 public class TC_001_CarLoan extends BaseClass {
 
-<<<<<<< HEAD
+
 	CarLoanEMI cl;
 	HomeLoanEMI hlm;
 	EMI_Calculator ec;
 	List<List<String>> tableData;
-=======
-    CarLoanEMI cl;
-    HomeLoanEMI hlm;
-    EMI_Calculator ec;
-    List<List<String>> tableData;
     
-    
-    @Test(priority = 1, groups = {"sanity","regression"})
-    public void carLoanTest() {
-    	try {
->>>>>>> 1a261e7abed0771a6ef7f74580043c7e5e0f02df
 
 	@Test(priority = 1, groups = {"sanity","regression"})
 	public void carLoanTest() {
@@ -92,7 +82,7 @@ public class TC_001_CarLoan extends BaseClass {
 			boolean targetPage=hlm.verifyHomeLoanWebpage();
 			Assert.assertEquals(targetPage, true,"Web page has not opened");
 			System.out.println("Verified that actual page is same as expected page..");
-<<<<<<< HEAD
+
 			hlm.HomeLoan("2500000","20","110000");
 			hlm.loanDetails("12", "12", "0.25");
 			Thread.sleep(1000);
@@ -125,30 +115,5 @@ public class TC_001_CarLoan extends BaseClass {
 	}
 
 }
-=======
-            hlm.HomeLoan("2500000","20","110000");
-            hlm.loanDetails("12", "12", "0.25");
-            Thread.sleep(1000);
-               
-           } catch (Exception e) {
-                e.printStackTrace();
-                logger.error("Test Failed..");
-           }
-        
-    }
-     @Test(priority = 5,groups="regression")
-     public void excel() throws IOException {
-    	
-    	 try {
-    		 tableData = hlm.extractandstoredata();
-    		 ExcelUtils ex = new ExcelUtils();
-    		 ex.writeToExcel(tableData);
-    		 hlm.navigate();
-    	 } catch (Exception e) {
-         e.printStackTrace();
-         logger.error("Test Failed..");
-    	 }
-     }
-     
-}
->>>>>>> 1a261e7abed0771a6ef7f74580043c7e5e0f02df
+
+           
